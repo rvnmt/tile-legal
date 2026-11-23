@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tile Feast Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE: warm, plain, reassuring - a legal page for a cosy game
+   IDEA: a cream game tile card on the game's orange table
+   PICTURE: a small stacked pyramid of tiles beside the title, one big "No data collected" tile
+   COLOUR and TYPE: orange #ff9f1c field, cream #fff8ec card, brown ink #4a2f17; Fredoka titles, Nunito body
+   LAYOUT: one centred reading column, summary tiles, then the full policy */
+:root{color-scheme:light dark;
+  --field:light-dark(#ffb648,#3a2210);--field2:light-dark(#ff9f1c,#22140a);
+  --card:light-dark(#fff8ec,#2d2118);--ink:light-dark(#4a2f17,#f6e6cf);--soft:light-dark(#8a6440,#c9ad8c);
+  --edge:light-dark(#e8d8bb,#4a3727);--accent:light-dark(#d9770a,#ffb648);--good:light-dark(#3e8f22,#8fd46c)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:linear-gradient(180deg,var(--field),var(--field2));background-attachment:fixed;color:var(--ink);font:17px/1.6 Nunito,system-ui,sans-serif;overflow-x:clip}
+.wrap{max-width:780px;margin:0 auto;padding:clamp(20px,4vw,48px) 16px 48px}
+.card{background:var(--card);border:3px solid #fff3;border-radius:28px;box-shadow:0 8px 0 var(--edge),0 18px 40px #0003;padding:clamp(20px,4vw,44px)}
+header{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;align-items:center;margin-bottom:24px}
+h1,h2{font-family:Fredoka,Nunito,sans-serif;font-weight:600;line-height:1.1;text-wrap:balance;margin:0}
+h1{font-size:clamp(32px,6vw,46px)}
+h2{font-size:22px;margin:34px 0 8px;color:var(--accent)}
+.meta{color:var(--soft);font-size:15px;margin-top:8px}
+.pyr{position:relative;width:132px;height:112px}
+.t{position:absolute;width:52px;height:58px;border-radius:10px;background:linear-gradient(135deg,#fffbf2,#f7ebd3);border:2px solid #e8d8bb;box-shadow:0 6px 0 #d7be93,0 8px 12px #0003;display:grid;place-items:center}
+.t svg{width:34px;height:34px}
+.t.dim::after{content:"";position:absolute;inset:-2px;border-radius:10px;background:#2b1a0c55}
+.sum{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:12px;margin:8px 0 6px}
+.chip{border-radius:18px;padding:14px 16px;background:light-dark(#fff,#3a2b1f);border:2px solid var(--edge)}
+.chip b{display:block;font-family:Fredoka,sans-serif;font-weight:600;font-size:19px;color:var(--good)}
+.chip span{font-size:15px;color:var(--soft)}
+ul{padding-left:1.2em}li{margin:4px 0}
+.mail{font-weight:700;color:var(--accent);word-break:break-all}
+footer{text-align:center;color:light-dark(#4a2f17,#f6e6cf);font-size:14px;margin-top:22px;opacity:.85}
+@media(max-width:600px){header{grid-template-columns:1fr}.pyr{order:-1;margin:0 auto}}
+@media(prefers-reduced-motion:no-preference){.pyr .t{animation:drop .6s cubic-bezier(.2,1.4,.4,1) backwards}.pyr .t:nth-child(2){animation-delay:.1s}.pyr .t:nth-child(3){animation-delay:.25s}}
+@keyframes drop{from{transform:translateY(-30px);opacity:0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <main class="card">
+    <header>
+      <div>
+        <h1>Tile Feast privacy policy</h1>
+        <div class="meta">Tile Feast: Triple Match (Android) · Effective 23 November 2026</div>
+      </div>
+      <div class="pyr" aria-hidden="true">
+        <div class="t dim" style="left:6px;top:50px"><svg viewBox="0 0 40 40"><circle cx="14" cy="27" r="8" fill="#e0262c"/><circle cx="27" cy="25" r="8" fill="#c81d24"/><path d="M14 19 Q18 6 26 5 M27 17 Q25 9 26 5" stroke="#3a7a1f" stroke-width="2.5" fill="none"/></svg></div>
+        <div class="t dim" style="left:66px;top:50px"><svg viewBox="0 0 40 40"><circle cx="20" cy="22" r="13" fill="#ff8a1a"/><path d="M20 9 q6-5 11-2 q-5 4-11 2" fill="#3a9a2a"/></svg></div>
+        <div class="t" style="left:36px;top:4px"><svg viewBox="0 0 40 40"><path d="M20 12 C10 6 4 16 7 25 C10 34 16 36 20 33 C24 36 30 34 33 25 C36 16 30 6 20 12Z" fill="#8bd23c"/><path d="M20 12 q0-6 3-8" stroke="#6b3f1d" stroke-width="2.5" fill="none"/><path d="M22 9 q8-6 12-1 q-6 4-12 1" fill="#3a9a2a"/></svg></div>
+      </div>
+    </header>
+
+    <div class="sum">
+      <div class="chip"><b>No data collected</b><span>Nothing about you is sent anywhere.</span></div>
+      <div class="chip"><b>No ads or tracking</b><span>No analytics, no ad IDs, no accounts.</span></div>
+      <div class="chip"><b>Works offline</b><span>No internet or other permissions requested.</span></div>
+    </div>
+
+    <h2>Who we are</h2>
+    <p>Tile Feast ("the app") is a single-player puzzle game for Android published on Google Play by Raven Tobias ("we", "us"). For any privacy question, email <span class="mail">olivolloyd26@gmail.com</span>.</p>
+
+    <h2>Information we collect</h2>
+    <p><strong>None.</strong> The app does not collect, transmit, sell or share personal information or device information. It has no sign-in, no advertising, no analytics or crash-reporting services, and no in-app purchases.</p>
+
+    <h2>Information stored only on your device</h2>
+    <p>To remember your progress, the app saves the following in your phone's private app storage (Android SharedPreferences):</p>
+    <ul>
+      <li>your current level, total score, stars and best level score</li>
+      <li>how many boosters you have</li>
+      <li>your music, sound and vibration settings, and whether you have seen the tutorial</li>
+    </ul>
+    <p>This information never leaves your device and we cannot see it. You can delete it at any time with <strong>Settings &gt; Reset progress</strong>, by clearing the app's storage in Android settings, or by uninstalling the app. If Android backup is turned on, Android may include this small file in your own Google backup; we have no access to it.</p>
+
+    <h2>Permissions</h2>
+    <p>The app requests no Android permissions and does not use the internet.</p>
+
+    <h2>Children</h2>
+    <p>The game is suitable for all ages. Because it collects no information from anyone, it collects no information from children under 13.</p>
+
+    <h2>Third-party content</h2>
+    <p>The food pictures come from Noto Emoji by Google and the font is Fredoka One, both under the SIL Open Font License 1.1. The music and sound effects are original. All of these are packaged inside the app; no data is sent to their authors.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, the updated version will be published at this same address with a new effective date.</p>
+
+    <h2>Contact</h2>
+    <p>Email: <span class="mail">olivolloyd26@gmail.com</span></p>
+  </main>
+  <footer>© 2026 Raven Tobias · Tile Feast: Triple Match</footer>
+</div>
+</body>
+</html>
